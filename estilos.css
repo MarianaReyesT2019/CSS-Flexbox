@@ -1,0 +1,59 @@
+body{
+
+    background-color: whitesmoke;
+
+}
+
+/* Estilos para la cabecera */
+header {
+    background-color:blue; /* Color de fondo azul */
+    color: white; /* Color del texto en blanco */
+    padding: 20px; /* Espaciado interno para dar margen al texto */
+    text-align: center; /* Centrar el texto en la cabecera */
+  }
+  
+  header h1 {
+    margin: 0; /* Eliminar el margen predeterminado del título h1 */
+  }
+  
+
+/* Estilos para el contenedor del menú */
+.nav-menu {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de flexión a columna */
+    list-style: none;
+    padding: 5px;
+  }
+  
+  /* Estilos para cada opción del menú */
+  .nav-menu li {
+    text-align: center;
+  }
+  
+  /* Estilos para los enlaces dentro de las opciones del menú */
+  .nav-menu a {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #1e21ff; /* Color de fondo para resaltar las opciones */
+  }
+  
+  /* Estilos para cambiar el color del fondo al pasar el cursor sobre las opciones */
+  .nav-menu a:hover {
+    background-color: #dddddd;
+  }
+  
+
+/* Estilos para cambiar el color del fondo al pasar el cursor sobre las opciones */
+.nav-menu a:hover {
+    background-color: #dddddd;
+  }
+  
+  /* Estilos para el párrafo */
+  .paragraph {
+    flex: 1; /* El párrafo ocupará todo el espacio disponible restante */
+    padding: 10px; /* Espaciado interno para el párrafo */
+  }
